@@ -1,0 +1,26 @@
+{
+  "name": "ngFnQueue",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JulianWielga/ngFnQueue",
+  "authors": [
+    "Julian Wielga <j@touk.pl>"
+  ],
+  "description": "Angular service to queue function calls until promise resolved.",
+  "main": "dist/index.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "queue",
+    "promise"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
