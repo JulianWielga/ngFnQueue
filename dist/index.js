@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  angular.module('jwl.fnQueue', []).factory('fnQueue', [
+  angular.module('touk.jwl.ngFnQueue', []).factory('fnQueue', [
     '$q', function($q) {
       return function(promise) {
         promise = $q.when(promise);

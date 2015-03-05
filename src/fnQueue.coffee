@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module 'jwl.fnQueue', []
+angular.module 'touk.jwl.ngFnQueue', []
 
 .factory 'fnQueue', ['$q', ($q) ->
 	(promise) ->
